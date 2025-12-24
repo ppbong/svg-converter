@@ -1,5 +1,5 @@
 {
-  "name": "svg-converter",
+  "name": "@ppbong/svg-converter",
   "version": "1.0.0",
   "description": "SVG to PNG, ICO, ICNS converter library for Node.js",
   "repository": {
