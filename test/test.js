@@ -1,5 +1,10 @@
-const SVGConverter = require('../index');
-const path = require('path');
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import SVGConverter from '../index.js';
+
+// 模拟 __dirname 在 ES 模块中
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 async function runTests() {
   const converter = new SVGConverter();

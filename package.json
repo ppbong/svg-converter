@@ -4,7 +4,14 @@
   "description": "SVG to PNG, ICO, ICNS converter library for Node.js",
   "author": "ppbong",
   "license": "MIT",
+  "type": "module",
   "main": "index.js",
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "import": "./index.js"
+    }
+  },
   "scripts": {
     "test": "node test/test.js"
   },

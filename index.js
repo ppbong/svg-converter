@@ -1,9 +1,8 @@
-const fs = require('fs');
-const path = require('path');
-const SVGProcessor = require('./lib/svg-processor');
-const PNGConverter = require('./lib/png-converter');
-const ICOConverter = require('./lib/ico-converter');
-const ICNSConverter = require('./lib/icns-converter');
+import fs from 'node:fs';
+import SVGProcessor from './lib/svg-processor.js';
+import PNGConverter from './lib/png-converter.js';
+import ICOConverter from './lib/ico-converter.js';
+import ICNSConverter from './lib/icns-converter.js';
 
 class SVGConverter {
   constructor() {
@@ -55,4 +54,4 @@ class SVGConverter {
   }
 }
 
-module.exports = SVGConverter;
+export default SVGConverter;
