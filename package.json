@@ -1,0 +1,21 @@
+{
+  "name": "svg-converter",
+  "version": "1.0.0",
+  "description": "SVG to PNG, ICO, ICNS converter library for Node.js",
+  "author": "ppbong",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "svg",
+    "png",
+    "ico",
+    "icns",
+    "converter"
+  ],
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}
