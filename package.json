@@ -10,10 +10,12 @@
   "license": "MIT",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "exports": {
     ".": {
       "require": "./index.cjs",
-      "import": "./index.js"
+      "import": "./index.js",
+      "types": "./index.d.ts"
     }
   },
   "scripts": {
@@ -30,9 +32,13 @@
   "files": [
     "index.js",
     "index.cjs",
+    "index.d.ts",
     "lib/**/*"
   ],
   "dependencies": {
     "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
   }
 }
