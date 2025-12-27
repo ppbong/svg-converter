@@ -5,7 +5,7 @@ SVG to PNG, ICO, ICNS converter library for Node.js
 ## Installation
 
 ```bash
-npm install svg-converter
+npm install @ppbong/svg-converter
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install svg-converter
 ### ES Modules (import)
 
 ```javascript
-import SVGConverter from 'svg-converter';
+import SVGConverter from '@ppbong/svg-converter';
 
 const converter = new SVGConverter();
 
@@ -30,7 +30,7 @@ await converter.toIcns('input.svg', 'output.icns', { sizes: [16, 32, 64] });
 ### CommonJS (require)
 
 ```javascript
-const SVGConverter = require('svg-converter');
+const SVGConverter = require('@ppbong/svg-converter');
 
 const converter = new SVGConverter();
 
